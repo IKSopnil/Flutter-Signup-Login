@@ -14,19 +14,26 @@ class Login_Background extends StatelessWidget {
     return SingleChildScrollView(
       child: Stack(
         children: [
-          Positioned(
-              top: 0,
-              left: 0,
-              child: Image.asset(
-                "android/assets/images/login_top.png",
-                width: size.width * .22,
-              )),
+          // Positioned(
+          //     top: 0,
+          //     left: 0,
+          //     child: Image.asset(
+          //       "android/assets/images/blob-haikei.png",
+          //       width: size.width * .9,
+          //     )),
           Positioned(
               bottom: 0,
               right: 0,
               child: Image.asset(
-                "android/assets/images/login_bottom.png",
-                width: size.width * 0.41,
+                "android/assets/images/blob-haikei (1).png",
+                width: size.width * .9,
+              )),
+          Positioned(
+              top: 0,
+              right: 0,
+              child: Image.asset(
+                "android/assets/images/log corner.png",
+                width: size.width * .8,
               )),
            child,
           

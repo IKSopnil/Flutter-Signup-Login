@@ -39,7 +39,7 @@ class body extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(100.0), //add border radius
                 child: Image.asset(
-                  "android/assets/images/12085707_20944201.jpg",
+                  "android/assets/images/User flow-rafiki.png",
                   height: 300.0,
                   width: 300.0,
                   fit: BoxFit.cover,
